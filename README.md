@@ -30,18 +30,21 @@ If you found an error please fill an issue and we will try to correct the mistak
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.1.2 [POST](#plateformespostmethod)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.1.3 [PUT](#plateformesputmethod)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.1.4 [DELETE](#plateformesdeletemethod)  
-&nbsp; 4 [Plateformes Settings Resources](#plateformessettingsresources)  
+&nbsp;&nbsp;&nbsp; 3.2 [Nested Resources](#plateformesnestedresources)  
+&nbsp; 4. [Plateformes Settings Resources](#plateformessettingsresources)  
 &nbsp;&nbsp;&nbsp; 4.1 [Allowed Method](#plateformessettingsallowedmethod)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.1.1 [GET](#plateformessettingsgetmethod)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.1.2 [POST](#plateformessettingspostmethod)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.1.3 [PUT](#plateformessettingsputmethod)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.1.4 [DELETE](#plateformessettingsdeletemethod)  
-&nbsp; 5. [Admins Resources](#adminsresources)  
-&nbsp;&nbsp;&nbsp; 5.1 [Allowed Method](#adminsallowedmethod)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.1.1 [GET](#adminsgetmethod)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.1.2 [POST](#adminspostmethod)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.1.3 [PUT](#adminsputmethod)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5.1.4 [DELETE](#adminsdeletemethod)  
+&nbsp; 5. [Backoffices Resources](#backofficesresources)  
+&nbsp;&nbsp;&nbsp; 5.1 [Nested Resources](#backofficesnestedresources)  
+&nbsp; 6. [Admins Resources](#adminsresources)  
+&nbsp;&nbsp;&nbsp; 6.1 [Allowed Method](#adminsallowedmethod)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.1.1 [GET](#adminsgetmethod)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.1.2 [POST](#adminspostmethod)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.1.3 [PUT](#adminsputmethod)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.1.4 [DELETE](#adminsdeletemethod)  
 
 
 ## <a name="usersresources"></a> 1. Users Resources  
@@ -110,6 +113,10 @@ TODO
 
 TODO
 
+### &nbsp; <a name="plateformesnestedresources"></a> 3.2 Nested Resources
+
+TODO
+
 ## <a name="plateformessettingsresources"></a> 4. Plateformes Settings Resources
 
 ### &nbsp; <a name="plateformessettingsallowedmethod"></a> 4.1 Allowed Method
@@ -130,22 +137,28 @@ TODO
 
 TODO
 
-## <a name="adminsresources"></a> 5. Admins Resources  
+## <a name="backofficesresources"></a> 5. Backoffices Resources  
 
-### &nbsp; <a name="adminsallowedmethod"></a> 5.1 Allowed Method
-
-#### &nbsp;&nbsp;&nbsp;&nbsp; <a name="adminsgetmethod"></a> 5.1.1 GET
+### &nbsp; <a name="backofficesnestedresources"></a> 5.1 Nested Resources
 
 TODO
 
-#### &nbsp;&nbsp;&nbsp;&nbsp; <a name="adminspostmethod"></a> 5.1.2 POST
+## <a name="adminsresources"></a> 6. Admins Resources  
+
+### &nbsp; <a name="adminsallowedmethod"></a> 6.1 Allowed Method
+
+#### &nbsp;&nbsp;&nbsp;&nbsp; <a name="adminsgetmethod"></a> 6.1.1 GET
 
 TODO
 
-#### &nbsp;&nbsp;&nbsp;&nbsp; <a name="adminsputmethod"></a> 5.1.3 PUT
+#### &nbsp;&nbsp;&nbsp;&nbsp; <a name="adminspostmethod"></a> 6.1.2 POST
 
 TODO
 
-#### &nbsp;&nbsp;&nbsp;&nbsp; <a name="adminsdeletemethod"></a> 5.1.4 DELETE
+#### &nbsp;&nbsp;&nbsp;&nbsp; <a name="adminsputmethod"></a> 6.1.3 PUT
+
+TODO
+
+#### &nbsp;&nbsp;&nbsp;&nbsp; <a name="adminsdeletemethod"></a> 6.1.4 DELETE
 
 TODO
