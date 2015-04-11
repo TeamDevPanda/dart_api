@@ -32,10 +32,10 @@ If you found an error please fill an issue and we will try to correct the mistak
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.1.4 [DELETE](#plateformesdeletemethod)  
 &nbsp;&nbsp;&nbsp; 3.2 [Plateformes Settings Resources](#plateformessettingsresources)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.2.1 [Allowed Method](#plateformessettingsallowedmethod)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.2.1 [GET](#plateformessettingsgetmethod)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.2.2 [POST](#plateformessettingspostmethod)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.2.3 [PUT](#plateformessettingsputmethod)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.2.4 [DELETE](#plateformessettingsdeletemethod)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.2.1.1 [GET](#plateformessettingsgetmethod)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.2.1.2 [POST](#plateformessettingspostmethod)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.2.1.3 [PUT](#plateformessettingsputmethod)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.2.1.4 [DELETE](#plateformessettingsdeletemethod)  
 &nbsp; 4. [Admins Resources](#adminsresources)  
 &nbsp;&nbsp;&nbsp; 4.1 [Allowed Method](#adminsallowedmethod)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.1.1 [GET](#adminsgetmethod)  
@@ -112,21 +112,21 @@ TODO
 
 ### &nbsp; <a name="plateformessettingsresources"></a> 3.2 Plateformes Settings Resources
 
-### &nbsp;&nbsp;&nbsp;&nbsp; <a name="plateformessettingsallowedmethod"></a> 3.2 Allowed Method
+### &nbsp;&nbsp;&nbsp;&nbsp; <a name="plateformessettingsallowedmethod"></a> 3.2.1 Allowed Method
 
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="plateformessettingsgetmethod"></a> 3.2.1 GET
-
-TODO
-
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="plateformessettingspostmethod"></a> 3.2.2 POST
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="plateformessettingsgetmethod"></a> 3.2.1.1 GET
 
 TODO
 
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="plateformessettingsputmethod"></a> 3.2.3 PUT
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="plateformessettingspostmethod"></a> 3.2.1.2 POST
 
 TODO
 
-#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="plateformessettingsdeletemethod"></a> 3.2.4 DELETE
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="plateformessettingsputmethod"></a> 3.2.1.3 PUT
+
+TODO
+
+#### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="plateformessettingsdeletemethod"></a> 3.2.1.4 DELETE
 
 TODO
 
