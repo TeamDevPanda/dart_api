@@ -39,12 +39,14 @@ If you found an error please fill an issue and we will try to correct the mistak
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.1.4 [DELETE](#plateformessettingsdeletemethod)  
 &nbsp; 5. [Backoffices Resources](#backofficesresources)  
 &nbsp;&nbsp;&nbsp; 5.1 [Nested Resources](#backofficesnestedresources)  
-&nbsp; 6. [Admins Resources](#adminsresources)  
-&nbsp;&nbsp;&nbsp; 6.1 [Allowed Method](#adminsallowedmethod)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.1.1 [GET](#adminsgetmethod)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.1.2 [POST](#adminspostmethod)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.1.3 [PUT](#adminsputmethod)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.1.4 [DELETE](#adminsdeletemethod)  
+&nbsp; 6. [Backoffices Admins Resources](#backofficesadminsresources)  
+&nbsp;&nbsp;&nbsp; 6.1 [Allowed Method](#backofficesadminsallowedmethod)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.1.1 [GET](#backofficesadminsgetmethod)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.1.2 [POST](#backofficesadminspostmethod)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.1.3 [PUT](#backofficesadminsputmethod)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.1.4 [DELETE](#backofficesadminsdeletemethod)  
+&nbsp;&nbsp;&nbsp; 6.2 [Allowed Action](#backofficesadminsallowedaction)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6.2.1 [Login](#backofficesadminsloginaction)  
 
 
 ## <a name="usersresources"></a> 1. Users Resources  
@@ -143,22 +145,25 @@ TODO
 
 TODO
 
-## <a name="adminsresources"></a> 6. Admins Resources  
+## <a name="backofficesadminsresources"></a> 6. Backoffices Admins Resources  
 
-### &nbsp; <a name="adminsallowedmethod"></a> 6.1 Allowed Method
+### &nbsp; <a name="backofficesadminsallowedmethod"></a> 6.1 Allowed Method
 
-#### &nbsp;&nbsp;&nbsp;&nbsp; <a name="adminsgetmethod"></a> 6.1.1 GET
-
-TODO
-
-#### &nbsp;&nbsp;&nbsp;&nbsp; <a name="adminspostmethod"></a> 6.1.2 POST
+#### &nbsp;&nbsp;&nbsp;&nbsp; <a name="backofficesadminspostmethod"></a> 6.1.2 POST
 
 TODO
 
-#### &nbsp;&nbsp;&nbsp;&nbsp; <a name="adminsputmethod"></a> 6.1.3 PUT
+#### &nbsp;&nbsp;&nbsp;&nbsp; <a name="backofficesadminsputmethod"></a> 6.1.3 PUT
 
 TODO
 
-#### &nbsp;&nbsp;&nbsp;&nbsp; <a name="adminsdeletemethod"></a> 6.1.4 DELETE
+#### &nbsp;&nbsp;&nbsp;&nbsp; <a name="backofficesadminsdeletemethod"></a> 6.1.4 DELETE
 
 TODO
+
+### &nbsp; <a name="backofficesadminsallowedaction"></a> 6.2 Allowed Action
+
+#### &nbsp;&nbsp;&nbsp;&nbsp; <a name="backofficesadminsloginaction"></a> 6.2.1 Login
+
+TODO
+
