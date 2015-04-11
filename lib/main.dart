@@ -6,7 +6,8 @@ import 'package:rpc/rpc.dart';
 
 part 'src/api.dart';
 
-part 'src/resources/admins/admins.dart';
+part 'src/resources/backoffices/backoffices.dart';
+part 'src/resources/backoffices/admins/admins.dart';
 
 part 'src/resources/users/users.dart';
 

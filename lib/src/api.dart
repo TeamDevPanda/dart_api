@@ -15,6 +15,6 @@ class Api {
   @ApiResource(name: 'plateformes')
   PlateformesResources plateformesResources = new PlateformesResources();
 
-  @ApiResource(name: 'admins')
-  AdminsResources adminsResources = new AdminsResources();
+  @ApiResource(name: 'backoffices')
+  BackofficesResources backofficesResources = new BackofficesResources();
 }

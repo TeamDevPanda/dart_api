@@ -14,25 +14,25 @@ class EditAdminsRequest {
 
 class AdminsResources {
 
-  @ApiMethod(path: 'admins/login', method: 'POST')
+  @ApiMethod(path: 'backoffices/admins/login', method: 'POST')
   VoidMessage login(LoginAdminsRequest req) {
     //  TODO: implement login
     throw new NotImplementedError();
   }
 
-  @ApiMethod(path: 'admins', method: 'POST')
+  @ApiMethod(path: 'backoffices/admins', method: 'POST')
   VoidMessage create(CreateAdminsRequest req) {
     //  TODO: implement create
     throw new NotImplementedError();
   }
 
-  @ApiMethod(path: 'admins', method: 'PUT')
+  @ApiMethod(path: 'backoffices/admins', method: 'PUT')
   VoidMessage edit(EditAdminsRequest req) {
     //  TODO: implement edit
     throw new NotImplementedError();
   }
 
-  @ApiMethod(path: 'admins/{id}', method: 'DELETE')
+  @ApiMethod(path: 'backoffices/admins/{id}', method: 'DELETE')
   VoidMessage delete(String id) {
     //  TODO: implement delete
     throw new NotImplementedError();
