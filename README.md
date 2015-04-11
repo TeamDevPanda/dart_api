@@ -35,7 +35,7 @@ If you found an error please fill an issue and we will try to correct the mistak
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.2.1 [GET](#plateformessettingsgetmethod)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.2.2 [POST](#plateformessettingspostmethod)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.2.3 [PUT](#plateformessettingsputmethod)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.2.4 [DELETE](#plateformessettingsdeletemethod)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.2.4 [DELETE](#plateformessettingsdeletemethod)  
 &nbsp; 4. [Admins Resources](#adminsresources)  
 &nbsp;&nbsp;&nbsp; 4.1 [Allowed Method](#adminsallowedmethod)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4.1.1 [GET](#adminsgetmethod)  
