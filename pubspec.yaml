@@ -2,7 +2,7 @@ name: dart_api
 version: 0.1.0
 author: Kevin Segaud <segaud.kevin@gmail.com>
 description: Team panda dart api
-homepage:
+homepage: https://github.com/TeamDevPanda/dart_api
 environment:
   sdk: '>=1.8.3 <2.0.0'
 dependencies:
