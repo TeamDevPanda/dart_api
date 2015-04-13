@@ -5,7 +5,7 @@ import 'package:logging/logging.dart';
 import 'package:logging_handlers/server_logging_handlers.dart';
 import 'package:rpc/rpc.dart';
 
-import 'src/main.dart';
+import 'src/api.dart';
 
 main() async {
   const String _API_PREFIX = '/api';

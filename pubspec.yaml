@@ -9,3 +9,4 @@ dependencies:
   rpc: 0.3.0
   logging: any
   logging_handlers: any
+  mongo_dart: any

@@ -15,8 +15,12 @@ class LoginUsersRequest {
 class UsersResources {
 
   @ApiMethod(path: 'users', method: 'GET')
-  VoidMessage getAll({int limit, int offset}) {
+  Future<VoidMessage> getAll({int limit, int offset}) async {
     //  TODO: implement getAll
+    Db db = new Db("mongodb://127.0.0.1/users");
+    await db.open();
+
+    await db.close();
     throw new NotImplementedError();
   }
 
