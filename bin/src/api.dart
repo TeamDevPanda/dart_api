@@ -18,7 +18,6 @@ part 'resources/users/users.dart';
 
 part 'shared/error/not_implemented.dart';
 
-
 @ApiClass(
     name: 'teampanda',
     version: '0.1'
