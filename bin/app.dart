@@ -13,7 +13,7 @@ main() async {
   final ApiServer _apiServer = new ApiServer(apiPrefix: _API_PREFIX, prettyPrint: true);
 
   Logger.root.level = Level.ALL;
-  Logger.root.onRecord.listen(new SyncFileLoggingHandler('myLogFile.txt'));
+  Logger.root.onRecord.listen(new SyncFileLoggingHandler('logFile.txt'));
   if (stdout.hasTerminal) {
     Logger.root.onRecord.listen(new LogPrintHandler());
   }
