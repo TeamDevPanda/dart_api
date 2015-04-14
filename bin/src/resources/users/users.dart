@@ -1,7 +1,15 @@
 part of TeamPandaApi;
 
 class CreateUsersRequest {
+  String login;
+  String email;
+  String password;
+  String first_name;
+  String last_name;
+}
 
+class CreateUsersResponse {
+  String message;
 }
 
 class EditUsersRequest {
@@ -17,10 +25,6 @@ class UsersResources {
   @ApiMethod(path: 'users', method: 'GET')
   Future<VoidMessage> getAll({int limit, int offset}) async {
     //  TODO: implement getAll
-    Db db = new Db("mongodb://127.0.0.1/users");
-    await db.open();
-
-    await db.close();
     throw new NotImplementedError();
   }
 
@@ -31,9 +35,9 @@ class UsersResources {
   }
 
   @ApiMethod(path: 'users', method: 'POST')
-  VoidMessage create(CreateUsersRequest req) {
-    //  TODO: implement create
-    throw new NotImplementedError();
+  Future<CreateUsersResponse> create(CreateUsersRequest req) async {
+    await createClassicUsers(req);
+    return new CreateUsersResponse()..message = "User create with success.";
   }
 
   @ApiMethod(path: 'users/login', method: 'POST')
